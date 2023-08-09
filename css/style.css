@@ -1,0 +1,257 @@
+/* Header Styles */
+#home {
+    margin-top:150px;
+    text-align: center;
+    padding: 5rem 0;
+    background-image: url('path/to/your/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #723030;
+}
+.cta-btn {
+    display: inline-block;
+    background-color: #ff5722;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+/* About Styles */
+#about {
+    padding: 4rem 0;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 4 rem;
+}
+
+.about-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+/* ... (existing CSS code) ... *
+/* Services Section Styles */
+.service img {
+    width: 180px; /* Adjust the width of service images */
+    border-radius: 10px;
+    border-radius: 50%;
+    height: 180px;
+    box-shadow: 0 5px 10px rgba(8, 6, 6, 0.2);
+
+}
+#services {
+    padding: 4rem 0;
+}
+.service-encloser{
+    display: flex;
+    flex-direction: row;
+}
+.services-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.services-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Service Styles */
+.service {
+    width: 400px;
+    display: inline-block;
+    padding:  2rem;
+    text-align: center;
+    border-radius: 20px;
+    margin: 0 2rem;
+    display: inline-block;
+    overflow: hidden;
+    box-shadow: 0 3px 6px rgba(4, 2, 2, 0.1);
+
+}
+/* Team Section Styles */
+#team {
+    background-color: #f9f9f9;
+    padding: 4rem 0;
+}
+
+.team-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    padding: 2rem 0;
+}
+.team-member-encloser{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:2rem 0;
+    
+}
+
+.team-member {
+    margin-bottom: 2rem;
+    box-shadow: 0 5px 10px rgba(8, 6, 6, 0.2);
+    border-radius: 5px;;
+    padding:1rem ;
+    width:30%;
+    margin: 2rem;
+}
+.team-member:nth-child(2){
+    margin-bottom: 2rem;
+    box-shadow: 0 5px 10px rgba(8, 6, 6, 0.2);
+    padding:2rem;
+    width:40%;
+    margin-top:0;
+}
+.team {
+    width: 30%;
+    display: inline-block;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.team-member img {
+    width: 150px; /* Adjust the width of team member images */
+    height: 150px;
+    border-radius: 10px;
+    border-radius: 50%;
+}
+
+.team-member h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.team-member p {
+    font-size: 1.2rem;
+}
+
+/* ... (rest of the CSS code) ... */
+/* Contact Styles */
+#contact {
+    padding: 4rem 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.contact-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.contact-content form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-content input,
+.contact-content textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-content button {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-content button:hover {
+    background-color: #e64a19;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    font-size: 1rem;
+}
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    /* Adjust header styles for smaller devices */
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 0.5rem 0;
+    }
+
+    /* Adjust hero content styles for smaller devices */
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    /* Adjust about content styles for smaller devices */
+    .about-content h2 {
+        font-size: 2rem;
+    }
+
+    /* Adjust services content styles for smaller devices */
+    .services-content h2 {
+        font-size: 2rem;
+    }
+
+    .services-content li {
+        font-size: 1rem;
+    }
+
+    /* Adjust contact content styles for smaller devices */
+    .contact-content h2 {
+        font-size: 2rem;
+    }
+
+    .contact-content p {
+        font-size: 1rem;
+    }
+
+    .contact-content form {
+        max-width: 400px;
+    }
+
+    /* Adjust footer styles for smaller devices */
+    footer p {
+        font-size: 0.8rem;
+    }
+}
+
+/* Additional Styles */
+/* Add any additional styles or customizations here */
